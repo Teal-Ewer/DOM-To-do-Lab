@@ -25,7 +25,7 @@ ul {
 }
 
 ol,
-ul {
+li {
 	list-style: none;
 }
 
@@ -34,9 +34,21 @@ img {
 	height: auto;
 }
 /* --- That is a css reset --- */
-
 body {
+	background-color: #2e2e2e;
+	color: rgb(255, 255, 255);
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+	background-color: #3e3e3e;
+	margin: 50px auto;
+	padding-bottom: 25px;
+	border: 1px solid black;
+	border-radius: 10px;
+	width: 60%;
 	text-align: center;
+	min-height: 400px;
 }
 
 h1 {
@@ -47,9 +59,26 @@ h1 {
 
 input,
 button {
-	font-size: 16px;
+	font-size: 18px;
 	padding: 5px;
+	margin-bottom: 20px;
+	border-radius: 5px;
+	border: 1px solid black;
 }
 
 li {
+	font-size: 20px;
+	font-weight: 100;
+	margin-left: 60px;
+	text-align: left;
+	list-style: circle;
+}
+
+button {
+	cursor: pointer;
+}
+
+input {
+	background-color: #2e2e2e;
+	color: white;
 }
