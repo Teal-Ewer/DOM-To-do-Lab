@@ -33,7 +33,9 @@ img {
 	max-width: 100%;
 	height: auto;
 }
+
 /* --- That is a css reset --- */
+
 body {
 	padding: 50px 0;
 	background: #e5e5e5;
@@ -55,10 +57,11 @@ body {
 	box-shadow: 0 0 10px 0 rgb(147, 147, 147);
 }
 
-
-h1, h2, li {
-	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-
+h1,
+h2,
+li {
+	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+		"Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 h1 {
@@ -88,9 +91,4 @@ li {
 	list-style-type: circle;
 	padding: 5px;
 	cursor: pointer;
-}
-
-input {
-	background-color: black;
-	color: black;
 }
