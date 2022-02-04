@@ -1,3 +1,5 @@
+/* --- That is a css reset --- */
+
 html {
 	box-sizing: border-box;
 	font-size: 16px;
@@ -34,7 +36,7 @@ img {
 	height: auto;
 }
 
-/* --- That is a css reset --- */
+/* --- That are the styles --- */
 
 body {
 	padding: 50px 0;

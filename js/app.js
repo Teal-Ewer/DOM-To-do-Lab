@@ -18,6 +18,8 @@ function addNewTodo() {
 	if (input.value === "") {
 		return alert("Please enter a valid To-do");
 	}
+	// * This is the function that adds the check mark.
+	// * Need to refactor so works after one click, not two.
 	newLi.addEventListener("click", function () {
 		if (newLi.style.listStyle === "circle") {
 			newLi.style.listStyle = '"\\2713"';
