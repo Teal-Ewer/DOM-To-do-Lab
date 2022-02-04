@@ -6,13 +6,28 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>DOM To-do Lab</title>
 		<script defer src="js/app.js"></script>
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"
+		/>
 		<link rel="stylesheet" href="css/style.css" />
 	</head>
 	<body>
 		<div class="container">
 			<h1>To-do List:</h1>
-			<input type="text" id="input" placeholder="Enter new to-do..." />
-			<button id="submit-button">Add To-do</button>
+			<div class="input-div">
+				<input
+					class="input is-inline has-text-dark"
+					type="text"
+					id="input"
+					placeholder="Enter new to-do..."
+				/>
+				<div class="button-div is-inline">
+					<button class="button is-link" id="submit-button">Add To-do</button>
+					<button class="button is-danger" id="reset">Reset</button>
+				</div>
+			</div>
+			<h2>Click on an item to check it off!</h2>
 			<ul id="todo-list"></ul>
 		</div>
 	</body>
